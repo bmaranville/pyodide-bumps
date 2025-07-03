@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build Pyodide
-        uses: pyodide/pyodide-build@v1
+        uses: pyodide/pyodide-build@v0.30.5
         with:
           pyodide-version: "0.27.7"
           packages: "numpy scipy matplotlib plotly mpld3 periodictable blinker dill orsopy"
